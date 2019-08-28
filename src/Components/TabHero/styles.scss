@@ -1,0 +1,27 @@
+.container__tab {
+  background: coral;
+  padding: 50px;
+  padding-top: 130px;
+
+  h1 {
+    font-size: 46px;
+    color: white;
+    padding-bottom: 35px;
+  }
+
+  .button__left {
+    padding: 10px 150px;
+    display: inline-block;
+    background: white;
+    border: solid white 1px;
+    border-radius: 5px;
+  }
+
+  .button__right {
+    padding: 10px 150px;
+    border: solid white 1px;
+    border-radius: 5px;
+    display: inline-block;
+    background: transparent;
+  }
+}
