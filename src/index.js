@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
- import App from './components/App';
+import Tab_hero from "./Components/Tab_hero"
 
 const container = document.getElementById('app');
 
-ReactDOM.render(<Tab />, container);
+
+ReactDOM.render(<Tab_hero />, container);

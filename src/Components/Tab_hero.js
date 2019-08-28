@@ -2,7 +2,7 @@ import React from 'react'
 
 
 
-class Tab extends React.Components{
+class Tab_hero extends React.Components{
     render(){
         return(
         <div className="Container">
@@ -14,7 +14,6 @@ class Tab extends React.Components{
             </div>
             </div>
             <div className="box">
-
             <div className="box__right">
             <p>Encuentra cosas que hacer y lugares para hospedarte</p>
             <div className="button__right">
@@ -23,10 +22,9 @@ class Tab extends React.Components{
             </div>
             </div>
         </div>
-
         );
     }
 }
 
 
-export default  Tab;
+export default  Tab_hero;
