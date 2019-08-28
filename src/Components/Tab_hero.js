@@ -1,8 +1,8 @@
-import React from 'react'
+import React, {Components} from 'react'
 
 
 
-class Tab_hero extends React.Components{
+class Tab_hero extends Components{
     render(){
         return(
         <div className="Container">
