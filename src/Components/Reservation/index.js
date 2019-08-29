@@ -9,7 +9,7 @@ class Reservation extends Component {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <h5>{Title}</h5>
+              <h4>{Title}</h4>
               <div className="row">
                 <div className="col-lg-3 col-md-12">
                   <form>
@@ -47,7 +47,7 @@ class Reservation extends Component {
                     </div>
                   </form>
                 </div>
-                <div className="col-lg-3 col-md-6">
+                <div className="col-lg-3 col-md-12">
                   <button className="btn btn-primary">Buscar</button>
                 </div>
               </div>
