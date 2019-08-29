@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./styles.scss";
-import Reservation from './../Reservation/index';
+import Reservation from "./../Reservation/index";
+import Critics from "./../Critics/index";
 
 class TabHero extends Component {
   render() {
@@ -30,7 +31,14 @@ class TabHero extends Component {
             </div>
           </div>
         </div>
-        <div className="col-12"> <Reservation /></div>
+        <div className="col-12">
+          {" "}
+          <Reservation Title="Reserva alojamientos y experiencias únicos" />
+        </div>
+        <div className="col-12">
+          {" "}
+          <Critics Title="" />
+        </div>
       </React.Fragment>
     );
   }

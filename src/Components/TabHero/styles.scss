@@ -2,8 +2,8 @@
   background: url("./imagesTab.jpg");
   padding: 50px;
   padding-top: 70px;
-  background-size: 100%;
-  background-position-y: bottom;
+  background-size: cover;
+  background-position-y: 100%;
   background-repeat: no-repeat;
 
   h1 {
@@ -18,7 +18,7 @@
     background: white;
     border: solid white 1px;
     font-weight: 500;
-    color:#484848;
+    color: #484848;
     border-radius: 5px;
     cursor: pointer;
   }
