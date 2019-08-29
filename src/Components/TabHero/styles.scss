@@ -1,7 +1,10 @@
 .container__tab {
-  background: coral;
+  background: url("./imagesTab.jpg");
   padding: 50px;
-  padding-top: 130px;
+  padding-top: 70px;
+  background-size: 100%;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
 
   h1 {
     font-size: 46px;
@@ -14,14 +17,28 @@
     display: inline-block;
     background: white;
     border: solid white 1px;
+    font-weight: 500;
+    color:#484848;
     border-radius: 5px;
+    cursor: pointer;
   }
 
   .button__right {
     padding: 10px 150px;
-    border: solid white 1px;
+    border: solid white 2px;
+    font-weight: 500;
     border-radius: 5px;
     display: inline-block;
-    background: transparent;
+    background: #7b7b7b;
+    cursor: pointer;
+    color: white;
+  }
+  .box {
+    max-width: 300px;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
   }
 }
