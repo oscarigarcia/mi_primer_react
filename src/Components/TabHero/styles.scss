@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Blinker:300&display=swap");
+
 .container__tab {
   background: url("./imagesTab.jpg");
   padding: 50px;
@@ -40,5 +43,6 @@
     font-size: 18px;
     font-weight: 500;
     color: white;
+    font-family: "Blinker", sans-serif;
   }
 }
