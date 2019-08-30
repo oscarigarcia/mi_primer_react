@@ -8,8 +8,8 @@ class Benefits extends Component {
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
-              <h4>Viajando con Airbnb</h4>
-              <div className="row">
+              <h4 className="cards">Viajando con Airbnb</h4>
+              <div className="row ">
                 <div className="col-lg-4">
                   <span>
                     Servicio al cliente las 24 horas, los 7 días de la semana

@@ -14,9 +14,24 @@ class Reservation extends Component {
                 <div className="col-lg-3 col-md-12">
                   <form>
                     <div className="form-group">
-                      <label>first</label>
+                      <label>DÓNDE</label>
                       <input
                         className="form-control"
+                        type="text"
+                        placeholder="Cualquier Lugar"
+                        name="first"
+                      ></input>
+                    </div>
+                  </form>
+                </div>
+                <div className="col-lg-3 col-md-6">
+                  <form>
+                    <div className="form-group">
+                      <label>
+                        LLEGADA - SALIDA</label>
+                      <input
+                        className="form-control"
+                        placeholder="dd/mm/aaaa - dd/mm/aaaa"
                         type="text"
                         name="first"
                       ></input>
@@ -26,21 +41,10 @@ class Reservation extends Component {
                 <div className="col-lg-3 col-md-6">
                   <form>
                     <div className="form-group">
-                      <label>second</label>
+                      <label>HUÉSPEDES</label>
                       <input
                         className="form-control"
-                        type="text"
-                        name="first"
-                      ></input>
-                    </div>
-                  </form>
-                </div>
-                <div className="col-lg-3 col-md-6">
-                  <form>
-                    <div className="form-group">
-                      <label>three</label>
-                      <input
-                        className="form-control"
+                        placeholder="1 Huesped"
                         type="text"
                         name="first"
                       ></input>

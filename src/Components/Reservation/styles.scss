@@ -2,14 +2,21 @@
   padding-top: 100px;
   h4 {
     color: #484848;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
   }
   .btn-primary {
     margin-top: 30px;
     padding-right: 48px;
     padding-left: 54px;
-    width: 100%;
+    background:#ff5a5f !important ;
   }
   .btn {
     text-align: center;
+  }
+  label{
+    font-weight: 500;
+    font-size: 13px;
+    color: #484848;
   }
 }
